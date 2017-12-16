@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">hsmontagens</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!--tela login-->
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="primeiroAcesso">Primeiro Acesso</string>
+    <string name="esqueciSenha">Esqueci Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="erroDeLogin">Usuário ou Senha inválidos</string>
+
+    <!--tela de cadastro - dados pessoais-->
+    <string name="dadosPessoais">Dados Pessoais</string>
+    <string name="dadosProfissionais">Dados Profissionais</string>
+    <string name="nomePessoal">Nome Completo</string>
+    <string name="cidadePessoal">Cidade</string>
+    <string name="ufPessoal">UF</string>
+    <string name="telefonePessoal">Telefone</string>
+    <string name="emailPessoal">E-mail</string>
+    <string name="dataNascimento">Data de Nascimento</string>
+    <string name="confirmarSenha">Confirmar Senha</string>
+    <string name="cadastrar">Cadastrar</string>
+
+</resources>

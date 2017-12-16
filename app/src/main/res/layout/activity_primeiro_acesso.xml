@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="heinke.hsmontagens.view.PrimeiroAcesso"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/dadosPessoais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dadosPessoais"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/dadosProfissionais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dadosProfissionais"
+            android:layout_marginLeft="25dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/nomeCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nomePessoal"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cidade"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cidadePessoal"
+            android:inputType="textPostalAddress"/>
+
+        <EditText
+            android:id="@+id/uf"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/ufPessoal"
+            android:inputType="textPostalAddress"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/telefonePessoal"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/emailPessoal"
+        android:inputType="textEmailAddress"/>
+
+
+    <EditText
+        android:id="@+id/dataNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dataNascimento"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/confirmarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/confirmarSenha"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/cadastrar"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+</LinearLayout>
+</LinearLayout>
