@@ -2,6 +2,10 @@
     <string name="app_name">hsmontagens</string>
     <string name="title_activity_login">Sign in</string>
 
+    <!-- Geral -->
+    <string name="sim">sim</string>
+    <string name="nao">não</string>
+
     <!--tela login-->
     <string name="login">Login</string>
     <string name="senha">Senha</string>
@@ -21,5 +25,21 @@
     <string name="dataNascimento">Data de Nascimento</string>
     <string name="confirmarSenha">Confirmar Senha</string>
     <string name="cadastrar">Cadastrar</string>
+
+    <!-- tela de alerta no cadastro de primeiro acesso -->
+    <string name="cadastroProfissional">Gostaria de cadastrar os seus dados profissionais?</string>
+
+    <!-- aviso para os usuario -->
+    <string name="avisoTelefone">O telefone já está no tamanho correto</string>
+    <string name="avisoAniversario">A data já está no formato correto</string>
+
+    <!-- mensagens de erro -->
+    <string name="cadastroNome">Por favor, digite seu nome completo</string>
+    <string name="cadastroUf">Por favor, digite uma UF do Brasil</string>
+    <string name="cadastroCidade">Por favor, digite uma cidade do Brasil</string>
+    <string name="cadastroTelefone">Por favor, digite o telefone no formato (DD)XXXXX-XXXX</string>
+    <string name="cadastroEmail">Por favor, digite um email valido</string>
+    <string name="cadastroDataNascimento">Por favor, digite a data no formato dd/mm/yyyy</string>
+
 
 </resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/textoAlertCadastrarEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastroProfissional"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp" >
+
+            <Button
+                android:id="@+id/sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="@string/sim"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao"
+                android:layout_marginLeft="25dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

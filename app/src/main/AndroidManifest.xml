@@ -21,7 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.PrimeiroAcesso"></activity>
+        <activity android:name=".view.PrimeiroAcesso" />
+        <activity android:name=".view.CadastrarEmpresa"></activity>
     </application>
 
 </manifest>

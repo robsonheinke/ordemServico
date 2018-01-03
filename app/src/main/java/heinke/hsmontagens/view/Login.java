@@ -9,8 +9,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import heinke.hsmontagens.R;
-import heinke.hsmontagens.view.model.Database_SQLite;
-import heinke.hsmontagens.view.model.Ferramentas;
+import heinke.hsmontagens.model.Cidade;
+import heinke.hsmontagens.model.Database_SQLite;
+import heinke.hsmontagens.model.Estado;
+import heinke.hsmontagens.model.Ferramentas;
+import heinke.hsmontagens.model.Pais;
 
 public class Login extends Ferramentas implements View.OnClickListener,View.OnTouchListener{
 
@@ -28,6 +31,8 @@ public class Login extends Ferramentas implements View.OnClickListener,View.OnTo
         View decorView = getWindow().getDecorView();
         decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
 
+      //  inserirDadosSQLite();
+
         login = (EditText) findViewById(R.id.login);
         senha = (EditText) findViewById(R.id.senha);
 
@@ -44,7 +49,8 @@ public class Login extends Ferramentas implements View.OnClickListener,View.OnTo
     @Override
     public void onClick(View view) {
         Toast.makeText(this, login.getText().toString()+" e "+ senha.getText().toString(), Toast.LENGTH_SHORT).show();
-        if(validaLogin(String.valueOf(login.getText()),String.valueOf(senha.getText()))){
+
+        if(validaLogin(String.valueOf(login.getText()), String.valueOf(senha.getText()))){
             novaTela(3,this);
         }
         else{
@@ -75,4 +81,6 @@ public class Login extends Ferramentas implements View.OnClickListener,View.OnTo
         super.onPause();
         finish();
     }
+
+
 }

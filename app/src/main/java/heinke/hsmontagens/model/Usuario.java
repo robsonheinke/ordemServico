@@ -1,4 +1,4 @@
-package heinke.hsmontagens.view.model;
+package heinke.hsmontagens.model;
 
 /**
  * Created by heinke on 08/11/17.

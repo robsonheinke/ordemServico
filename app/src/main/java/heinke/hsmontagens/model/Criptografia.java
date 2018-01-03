@@ -1,4 +1,4 @@
-package heinke.hsmontagens.view.model;
+package heinke.hsmontagens.model;
 
 import android.util.Base64;
 
